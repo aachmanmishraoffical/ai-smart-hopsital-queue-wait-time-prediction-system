@@ -1,0 +1,27 @@
+# Node
+node_modules
+npm-debug.log*
+.env*
+!.env.example
+!.env.*.example
+backend/data/
+
+# React
+frontend/node_modules
+frontend/build
+.vercel/
+
+# Logs
+logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Private credentials and local-only files
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
