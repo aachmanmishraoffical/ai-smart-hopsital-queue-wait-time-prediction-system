@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API_BASE_URL =
-  "https://ai-hospital-5iqz.onrender.com";
+  process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 export const SOCKET_URL =
   process.env.REACT_APP_SOCKET_URL || API_BASE_URL.replace(/\/api\/?$/, "");
 
